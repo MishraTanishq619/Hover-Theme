@@ -17,3 +17,8 @@ pos.addEventListener("mousemove", (e) => {
 	pos.style.backgroundColor = clr;
 	body.style.backgroundColor = `rgb(0, 255,${((x - 300) / 300) * 255})`;
 });
+
+pos.addEventListener("mouseleave", () => {
+	pos.style.backgroundColor = "white";
+	body.style.backgroundColor = "white";
+});
